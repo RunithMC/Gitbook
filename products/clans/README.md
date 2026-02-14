@@ -27,7 +27,7 @@ This guide will walk you through the steps to **install, configure, and modify**
 
 ### Media
 
-<table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th data-hidden></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td data-object-fit="fill"><a href="../../.gitbook/assets/claninfo.png">claninfo.png</a></td></tr><tr><td></td><td data-object-fit="fill"><a href="../../.gitbook/assets/clan.png">clan.png</a></td></tr><tr><td></td><td><a href="../../.gitbook/assets/rally.png">rally.png</a></td></tr><tr><td></td><td data-object-fit="fill"><a href="../../.gitbook/assets/image (8).png">image (8).png</a></td></tr><tr><td></td><td><a href="../../.gitbook/assets/clanbase.png">clanbase.png</a></td></tr></tbody></table>
+<table data-view="cards" data-full-width="true"><thead><tr><th data-hidden></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td></td><td data-object-fit="fill"><a href="../../.gitbook/assets/claninfo.png">claninfo.png</a></td></tr><tr><td></td><td data-object-fit="fill"><a href="../../.gitbook/assets/clan.png">clan.png</a></td></tr><tr><td></td><td><a href="../../.gitbook/assets/rally.png">rally.png</a></td></tr><tr><td></td><td data-object-fit="fill"><a href="../../.gitbook/assets/image (8).png">image (8).png</a></td></tr><tr><td></td><td><a href="../../.gitbook/assets/clanbase.png">clanbase.png</a></td></tr></tbody></table>
 
 ***
 
