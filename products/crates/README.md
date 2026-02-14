@@ -2,7 +2,6 @@
 description: >-
   Is a powerful and highly optimized crates plugin built for performance and
   scalability. With an efficient rewards give system.
-hidden: true
 icon: treasure-chest
 ---
 
@@ -11,10 +10,6 @@ icon: treasure-chest
 ***
 
 This guide will walk you through the steps to **install, configure, and modify** the plugin.
-
-***
-
-***
 
 <figure><img src="../../.gitbook/assets/crates.png" alt=""><figcaption></figcaption></figure>
 
