@@ -18,14 +18,13 @@ Download it [here](https://github.com/RunithMC/maven/releases/tag/core)!
 
 {% code title="Default Configuration" overflow="wrap" expandable="true" %}
 ```yml
-# Available: mongodb, gson and none
+# Recommended: gson for small servers,
+# mongodb for large servers or mariadb if you can't use mongodb. (Mongodb is recommended for better performance and scalability)
+
+# Available: mongodb, gson, mariadb and none
 # none database always return null and don't save data
 type: "gson"
 context-prefix: "" # Use: prison, lobby, survival-og for separate data in the same database
-
-redis:
-  enable: false # Independent from mongodb and Gson
-  uri: "redis://user:test@localhost:6379/0"
 
 mongodb:
   uri-enable: false
@@ -41,6 +40,24 @@ mongodb:
 
 gson:
   path: "plugins/RunithCore/Gson-Database"
+
+mariadb:
+  # Basic connection settings
+  host: "localhost"
+  port: 3306
+  database: "runith_db"
+  user: "root"
+  password: "password"
+
+  # Connection pool settings (optional)
+  pool:
+    maximum-pool-size: 10
+    minimum-idle: 2
+    connection-timeout-ms: 30000
+    idle-timeout-ms: 600000
+    max-lifetime-ms: 1800000
+
+
 ```
 {% endcode %}
 
