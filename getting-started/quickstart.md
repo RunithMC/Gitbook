@@ -1,4 +1,5 @@
 ---
+description: Free library for Runith plugins.
 icon: bolt
 metaLinks:
   alternates:
@@ -9,10 +10,13 @@ metaLinks:
 
 ### RunithCore
 
-All runith plugins depend on this core to function.\
-Default configuration:
+All runith plugins depend on this core to function.
 
-{% code overflow="wrap" expandable="true" %}
+{% hint style="success" %}
+Download it [here](https://github.com/RunithMC/maven/releases/tag/core)!
+{% endhint %}
+
+{% code title="Default Configuration" overflow="wrap" expandable="true" %}
 ```yml
 # Available: mongodb, gson and none
 # none database always return null and don't save data
@@ -40,4 +44,4 @@ gson:
 ```
 {% endcode %}
 
-We recommend using mongodb for servers with a large number of users (+30), gson for testing or few users, and none for testing (no data will be saved).
+We recommend using **MongoDB** for servers with a large number of users (+30), **GSON** for testing or few users, and **none** for testing (no data will be saved).
