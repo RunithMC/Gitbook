@@ -10,19 +10,19 @@ icon: comment
 ## User Commands (/crates)
 
 {% hint style="success" %}
-**Grant them all permissions for user commands**
+**Grant them all permissions for admin commands**
 
-`runithcrates.user.*`
+`runithcrates.user.*` or `runithcrates.user.use` for /crates usage
 {% endhint %}
 
 <table><thead><tr><th width="251.22216796875">Command</th><th>Description</th><th>Permissions</th></tr></thead><tbody><tr><td><code>crates</code></td><td>Open crate's menu</td><td>runithcrates.user.keys</td></tr></tbody></table>
 
-## Admin Commands (/rclan)
+## Admin Commands (/rcrates)
 
 {% hint style="success" %}
 **Grant them all permissions for admin commands**
 
-`runithcrates.admin.*`
+`runithcrates.admin.*` or `runithcrates.admin.use` for /rcrates usage
 {% endhint %}
 
 | Command                                                                  | Description                            | Permissions                      |

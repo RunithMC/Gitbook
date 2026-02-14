@@ -1,5 +1,5 @@
 ---
-icon: file
+icon: box-isometric
 ---
 
 # example\_crate.yml

@@ -35,7 +35,7 @@ dependencies {
 ```xml
 <repositories>
     <repository>
-        <id>reactor-maven</id>
+        <id>runith-repo</id>
         <url>https://repo.runith.net/</url>
     </repository>
 </repositories>

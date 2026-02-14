@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies { 
-    compileOnly("net.runith:clans-api:1.2.0")
+    compileOnly("net.runith:trades-api:1.0.0")
 }
 ```
 
@@ -26,7 +26,7 @@ repositories {
 }
 
 dependencies { 
-    compileOnly "net.runith:clans-api:1.2.0"
+    compileOnly "net.runith:trades-api:1.0.0"
 }
 ```
 
@@ -43,7 +43,7 @@ dependencies {
 <dependencies>
     <dependency>
       <groupId>net.runith</groupId>
-      <artifactId>clans-api</artifactId>
+      <artifactId>trades-api</artifactId>
       <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
