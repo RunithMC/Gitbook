@@ -37,13 +37,9 @@ All plugin messages are fully customizable and translatables.
 
 * Matrix Trade Layout
 * Unlimited Trades
-* d
 * Multi Categories
 * Command Rewards System
 * Preview Inventory
-
-
-
 * PlaceholderAPI Hook
 
 ### Requeriments
