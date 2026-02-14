@@ -6,9 +6,6 @@ icon: file
 
 {% code overflow="wrap" fullWidth="false" %}
 ```yml
-# Command used to manage clans. Can be changed to fit your server's style.
-clan-commands: [ "clan", "c", "clans" ]
-
 score-weight:
   # Formula used to calculate clan score:
   # (kills * weight) + (deaths * weight) + (points * weight) + (balance * weight)
