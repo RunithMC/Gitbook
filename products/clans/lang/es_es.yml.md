@@ -17,6 +17,7 @@ aliases:
 messages:
   action-dont-registered: "&8» &cEsta acción no está registrada. Contacta a un administrador."
   in-process: "&8» &cEspera a que finalice la tarea: %action% para el clan %clan%"
+  user-command-no-permission: "&8» &cNo tienes permiso para usar este comando."
 
   format:
     - "&3&lRunithClans"
