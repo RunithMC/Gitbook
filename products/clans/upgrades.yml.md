@@ -29,7 +29,7 @@ inventory:
   layout:
     - "    ?"
     - "_________"
-    - " D R M E "
+    - " DRE Mea "
     - ""
 
   extra-items:
@@ -136,6 +136,56 @@ extra-members:
   name: "&6Extra Members"
   lore:
     - "&8Increase the maximum clan member capacity"
+    - ""
+    - "&fLevel: &b%level% &8| &9%max_level%"
+    - "&fBonus: &b+%current% &7-> &3%next%"
+    - "&fCost: &3%cost%"
+    - ""
+    - "&bClick here to upgrade"
+
+extra-enemies:
+  enable: true
+
+  max-level: 10
+
+  # Additional enemies slots per level.
+  members-per-level: 1
+
+  cost-increase:
+    type: "MULTIPLY" # ADD | MULTIPLY | STATIC | NONE
+    multiply-factor: 1.10
+    value: 3000
+
+  id: "e"
+  type: "APPLE"
+  name: "&cExtra Enemies"
+  lore:
+    - "&8Increase the maximum enemies capacity"
+    - ""
+    - "&fLevel: &b%level% &8| &9%max_level%"
+    - "&fBonus: &b+%current% &7-> &3%next%"
+    - "&fCost: &3%cost%"
+    - ""
+    - "&bClick here to upgrade"
+
+extra-allies:
+  enable: true
+
+  max-level: 10
+
+  # Additional allies slots per level.
+  members-per-level: 1
+
+  cost-increase:
+    type: "MULTIPLY" # ADD | MULTIPLY | STATIC | NONE
+    multiply-factor: 1.10
+    value: 3000
+
+  id: "a"
+  type: "BEACON"
+  name: "&bExtra Allies"
+  lore:
+    - "&8Increase the maximum allies capacity"
     - ""
     - "&fLevel: &b%level% &8| &9%max_level%"
     - "&fBonus: &b+%current% &7-> &3%next%"
