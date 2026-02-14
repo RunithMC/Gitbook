@@ -1,8 +1,6 @@
 ---
 icon: user-astronaut
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/yE16Xb3IemPxJWydtPOj/
+metaLinks: {}
 ---
 
 # Welcome to Runith Studio's
@@ -17,11 +15,9 @@ Have a question or ran into an issue? No worries — we’ve got you covered. Jo
 
 To get help, head over to **#tickets** and open a ticket so we can assist you as quickly as possible.
 
-
-
 Join our Discord here: [**discord.runith.net**](https://discord.runith.net)
 {% endhint %}
 
 ### Explore our products!
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-shield">:shield:</i></h4></td><td><strong>Clans Plugin</strong></td><td>Efficient and robust clans plugin.</td><td><a href=".gitbook/assets/clans.png">clans.png</a></td><td></td><td><a href="products/clans/">clans</a></td></tr><tr><td><h4><i class="fa-leaf">:leaf:</i></h4></td><td><strong>Editor basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="https://github.com/GitbookIO/gitbook-templates/blob/main/product-docs/broken-reference/README.md">https://github.com/GitbookIO/gitbook-templates/blob/main/product-docs/broken-reference/README.md</a></td></tr><tr><td><h4><i class="fa-globe-pointer">:globe-pointer:</i></h4></td><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/mongodb/">mongodb</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-shield">:shield:</i></td><td><strong>Clans Plugin</strong></td><td>Efficient and robust clans plugin.</td><td><a href=".gitbook/assets/clans.png">clans.png</a></td><td></td><td><a href="products/clans/">clans</a></td></tr><tr><td><i class="fa-leaf">:leaf:</i></td><td><strong>Editor basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="https://github.com/GitbookIO/gitbook-templates/blob/main/product-docs/broken-reference/README.md">https://github.com/GitbookIO/gitbook-templates/blob/main/product-docs/broken-reference/README.md</a></td></tr><tr><td><i class="fa-globe-pointer">:globe-pointer:</i></td><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/mongodb/">mongodb</a></td></tr></tbody></table>

@@ -14,6 +14,8 @@
 
 * [RunithCrates](products/crates/README.md)
   * [Developer API](products/crates/api.md)
+  * [Commands, Permissions & Placeholders](products/crates/commands-permissions-and-placeholders.md)
+  * [config.yml](products/crates/config.yml.md)
 * [RunithClans](products/clans/README.md)
   * [Developer API](products/clans/api.md)
   * [Commands, Permissions & Placeholders](products/clans/commands-permissions-and-placeholders.md)

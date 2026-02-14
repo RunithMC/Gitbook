@@ -9,7 +9,7 @@ metaLinks:
     - https://app.gitbook.com/s/yE16Xb3IemPxJWydtPOj/basics/editor
 ---
 
-# RunithClans chocoesgay
+# RunithClans
 
 ***
 
@@ -20,7 +20,7 @@ This guide will walk you through the steps to **install, configure, and modify**
 ***
 
 {% hint style="info" %}
-All plugin messages are fully customizable and translatable.
+**All plugin messages are fully customizable and translatables.**
 {% endhint %}
 
 ***
@@ -62,19 +62,19 @@ All plugin messages are fully customizable and translatable.
 
 {% stepper %}
 {% step %}
-#### Download the jar from our [Discord](https://discord.runith.net).
+**Download the jar from our** [**Discord**](https://discord.runith.net)**.**
 
 You will need purchase before.
 {% endstep %}
 
 {% step %}
-#### Upload RunithCore and RunithClans into your plugins folder.
+**Upload RunithCore and RunithClans into your plugins folder.**
 
 After this, you will need restart the server.
 {% endstep %}
 
 {% step %}
-#### Configure RunithCore database credentials. (Or use GSON)
+**Configure RunithCore database credentials. (Or use GSON)**
 
 Check this [guide](../../getting-started/mongodb/) to know how configure it.
 {% endstep %}
