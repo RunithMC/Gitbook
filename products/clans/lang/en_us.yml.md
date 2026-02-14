@@ -7,12 +7,12 @@ icon: head-side-speak
 {% code overflow="wrap" %}
 ```yml
 aliases:
-  - "en_ud"
-  - "en_pt"
-  - "en_nz"
-  - "en_gb"
-  - "en_ca"
-  - "en_au"
+  - "en_UD"
+  - "en_PT"
+  - "en_NZ"
+  - "en_GB"
+  - "en_CA"
+  - "en_AU"
 
 messages:
   action-dont-registered: "&8» &cThis action is not registered. Contact an administrator."
@@ -102,8 +102,11 @@ messages:
     header:
       - " "
       - "&7Clan &b%name% &8(&7%online%&f/&7%amount%&8) - &b%tag%"
-      - "&8Active members:"
-    player: "&8● &7%name% &8(&7%last_active%&8) - &b%role%"
+      - "&8Member | Last Active | Role | Time Since Joining"
+
+    online-player: "&8● &a%name% &8(&aOnline&8) - &b%role% - &8(%time_since_join%)"
+    offline-player: "&8● &7%name% &8(&7%last_active%&8) - &b%role%  - &8(%time_since_join%)"
+
     footer:
       - " "
       - "&8Statistics:"
@@ -122,21 +125,27 @@ messages:
   chat:
     format:
       - "&8» &cUsage: &f/clan chat &b(enemy) (enemy clan)"
-      - "&8» &cUsage: &f/clan chat &bally"
+      - "&8» &cUsage: &f/clan chat &bally (ally clan)"
       - "&7Use only &f/clan chat &7to toggle between global and clan chat."
+
+    global: "&8» &fYou have switched to &bGLOBAL&f chat."
+    clan: "&8» &fYou have switched to &bCLAN&f chat."
+
+    enemy: "&8» &fYou can now speak with the enemy clan &b%enemy_tag% &8(&7%enemy%&8)&f."
+    enemy-format: "&8» &cUsage: &f/clan chat enemy &b(enemy clan)"
+    enemy-offline: "&8» &cThe enemy clan %enemy% is not connected."
     no-found-enemy:
       - "&8» &cEnemy clan &b%enemy%&c not found."
       - "&7Current enemies: &b%enemies%"
-    no-online-enemy: "&8» &cNo enemy clan members are online."
-    enemy-offline: "&8» &cThe enemy clan %enemy% is not connected."
-    global: "&8» &fYou have switched to &bGLOBAL&f chat."
-    clan: "&8» &fYou have switched to &bCLAN&f chat."
-    enemy: "&8» &fYou can now speak with the enemy clan &b%enemy_tag% &8(&7%enemy%&8)&f."
+
     no-in-clan: "&8» &cYou do not belong to any clan."
-    no-allies: "&8» &cYour clan has no allies."
-    no-online-allies: "&8» &cNo allies are online."
-    ally-offline: "&8» &cThe allied clan %ally% is not connected."
-    ally: "&8» &fYou have switched to &a&lALLIES&f chat."
+
+    ally: "&8» &fYou can now speak with the ally clan &b%ally_tag% &8(&7%ally%&8)&f."
+    ally-format: "&8» &cUsage: &f/clan chat ally &b(ally clan)"
+    ally-offline: "&8» &cThe ally clan %ally% is not connected."
+    no-found-ally:
+      - "&8» &cAlly clan &b%ally%&c not found."
+      - "&7Current allies: &b%allies%"
 
   invite:
     format: "&8» &cUsage: &f/clan invite &b(accept/deny/player)"
@@ -273,12 +282,14 @@ messages:
 
   rally:
     no-in-clan: "&8» &cYou do not belong to any clan."
-    info-to-members: "&3[RALLY] &fPlayer &a%player_name% &frequests support at &a%worldguard_region_name%&f."
-    expired: "&4⚠ &cThe rally was removed because it expired."
+    info-to-members: "&3[RALLY] &fPlayer &a%player% &frequests support at &a%worldguard_region_name%&f."
+    expired-info-to-members: "&4⚠ &cThe rally has expired."
+    expired-info-to-ally: "&4⚠ &cThe rally from clan %clan% has expired."
+    info-to-ally: "&3[RALLY] &fPlayer &a%player% &ffrom clan &b%clan% &frequests support at &a%worldguard_region_name%&f."
 
   base:
     no-in-clan: "&8» &cYou do not belong to any clan."
-    info-to-members: "&3[BASE] &fPlayer &a%player_name% &fhas changed the base to &e%x%, %y%, %z%."
+    info-to-members: "&3[BASE] &fPlayer &a%player% &fhas changed the base to &e%x%, %y%, %z%."
     need-higher-role: "&8» &cYou must be at least &eLEADER &cto change the base."
     in-blacklisted-world: "&8» &cYou are in a blacklisted world, you cannot go to/change the base."
     no-exists: "&8» &cYour clan does not have a base set."
@@ -288,7 +299,7 @@ messages:
   rename:
     no-in-clan: "&8» &cYou do not belong to any clan."
     already-exists: "&8» &cA clan with this name already exists"
-    info-to-members: "&3[RENAME] &fPlayer &a%player_name% &fhas changed the clan name to %clan% with the tag %tag%&f."
+    info-to-members: "&3[RENAME] &fPlayer &a%player% &fhas changed the clan name to %clan% with the tag %tag%&f."
     need-higher-role: "&8» &cYou must be at least &eCO_LEADER &cto change the name."
     format: "&8» &cTo rename your clan, use: /clan rename (name) (tag)."
 
@@ -298,5 +309,6 @@ messages:
     renamed: "&8» &fYou have renamed the clan to &b%clan% &fwith the tag &b%tag%&f."
     invalid_name: "&8» &cThe name entered is not valid. Only letters, numbers, and some symbols are allowed."
     cooldown: "&8» &cYou need to wait &e%time% &cbefore renaming the clan back"
+
 ```
 {% endcode %}
