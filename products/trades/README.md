@@ -44,8 +44,8 @@ All plugin messages are fully customizable and translatables.
 
 ### Requeriments
 
-* Java +25
-* Software Version: 1.8.9
+* Java +21
+* Software Version: +1.8.9
 * Database MongoDB (Optional)
 * [RunithCore](/broken/pages/PbYb0GukRhiS4qCHdRal)
 
