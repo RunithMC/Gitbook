@@ -36,4 +36,42 @@ icon: comment
 
 ## Placeholders
 
-<table><thead><tr><th width="374">Placeholder</th><th>Description</th></tr></thead><tbody><tr><td><code>%clan_leaderboard_(kills/deaths/score/points)_(1/2/3/...)%</code></td><td>Return clan with the position</td></tr><tr><td><code>%clan_leaderboardpos_(kills/deaths/score/points)%</code></td><td>Returns your clan's position on the leaderboard</td></tr></tbody></table>
+If you want get stats from specific clan. Use: %clan\_(clanName):(name/on/tag/...)%
+
+<table><thead><tr><th width="449">Placeholder</th><th>Description</th></tr></thead><tbody><tr><td><code>%clan_leaderboard_(kills/deaths/score/points)_(1/2/3/...)%</code></td><td>Return clan with the position</td></tr><tr><td><code>%clan_leaderboardpos_(kills/deaths/score/points)%</code></td><td>Returns your clan's position on the leaderboard</td></tr><tr><td><code>%clan_name%</code></td><td>Return clan name</td></tr><tr><td><code>%clan_on%</code></td><td>Return amount of players conected</td></tr><tr><td><code>%clan_tag%</code></td><td>Returns your clan's tag</td></tr><tr><td><code>%clan_(kills/deaths/score/money/points)%</code></td><td>Returns your clan's statistics</td></tr><tr><td><code>%clan_chat%</code></td><td>Returns which chat you are in (global, clan, ally, or enemy)</td></tr><tr><td><code>%clan_role%</code></td><td>Returns your rule (user, mod, co-leader, leader or admin)</td></tr><tr><td><code>%clan_jointime%</code></td><td>Returns how long ago you joined the clan, e.g., 2s, 3m, etc.</td></tr><tr><td><code>%clan_lastActiveTime%</code></td><td>Returns how long ago they joined the clan, e.g., 53d, 1y, etc.</td></tr><tr><td><code>%clan_has%</code></td><td>Returns whether the player is in a clan (true/false)</td></tr><tr><td><code>%clan_alliesOn%</code></td><td>Returns the number of allies that are connected</td></tr><tr><td><code>%clan_enemiesOn%</code></td><td>Returns the number of enemies that are connected</td></tr></tbody></table>
+
+## Permissions
+
+<pre class="language-yaml"><code class="lang-yaml"># User permissions
+runithclans.user.use: true # Access to /clan
+runithclans.user.upgrade: true
+runithclans.user.tag: true
+runithclans.user.setrole: true
+runithclans.user.rename: true
+runithclans.user.rally: true
+runithclans.user.list: true
+runithclans.user.leave: true
+runithclans.user.kick: true
+runithclans.user.invite: true
+runithclans.user.info: true
+runithclans.user.friendlyfire: true
+runithclans.user.enemy: true
+runithclans.user.disband: true
+runithclans.user.create: true
+runithclans.user.chat: true
+runithclans.user.base: true
+runithclans.user.bank: true
+runithclans.user.ally: true
+
+# Admin permissions
+runithclans.admin.<a data-footnote-ref href="#user-content-fn-1">use</a>: true # Access to /rclan 
+runithclans.user: true
+runithclans.admin.stats: true
+runithclans.admin.reload: true
+runithclans.admin.join: true
+runithclans.admin.delete: true
+runithclans.admin.chatspy: true
+runithclans.admin.changetag: true
+</code></pre>
+
+[^1]: 
