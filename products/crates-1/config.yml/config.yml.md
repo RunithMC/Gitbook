@@ -1,5 +1,5 @@
 ---
-icon: file
+icon: layer-group
 ---
 
 # example\_category.yml

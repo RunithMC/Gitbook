@@ -2,7 +2,7 @@
 description: >-
   Learn how to create a custom trade category from scratch with this complete
   step-by-step guide.
-icon: file
+icon: question
 ---
 
 # How to Create a Trade Category
