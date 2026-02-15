@@ -54,5 +54,8 @@ cooldown-to-despawn-rally: 30s
 base-blacklist-worlds:
   - "world_the_end"
   - "world_nether"
+
+addons:
+  discord-hook: true
 ```
 {% endcode %}
