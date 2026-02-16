@@ -25,14 +25,15 @@ icon: comment
 `runithclans.admin.*` or `runithclans.admin.use` for /rclan usage
 {% endhint %}
 
-| Command                                                                                                              | Description                            | Permissions                 |
-| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | --------------------------- |
-| `changetag (clan) (newTag)`                                                                                          | Change the tag of any clan.            | runithclans.admin.changetag |
-| `chatspy`                                                                                                            | Monitor all clan chat messages.        | runithclans.admin.chatspy   |
-| `delete (clan)`                                                                                                      | Force delete any clan.                 | runithclans.admin.delete    |
-| `join (clan) (user/mod/co-leader/leader/administrator)`                                                              | Force join into a clan.                | runithclans.admin.join      |
-| `stats (set/add/remove/multiply/divide) (amount) (kills/deaths/points/money) (clan/player) (clanName/playerName) -s` | Change statistics for a clan.          | runithclans.admin.stats     |
-| `reload`                                                                                                             | Reload the plugin configuration files. | runithclans.admin.reload    |
+| Command                                                                                                              | Description                                            | Permissions                 |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | --------------------------- |
+| `changetag (clan) (newTag)`                                                                                          | Change the tag of any clan.                            | runithclans.admin.changetag |
+| `chatspy`                                                                                                            | Monitor all clan chat messages.                        | runithclans.admin.chatspy   |
+| `delete (clan)`                                                                                                      | Force delete any clan.                                 | runithclans.admin.delete    |
+| `join (clan) (user/mod/co-leader/leader/administrator)`                                                              | Force join into a clan.                                | runithclans.admin.join      |
+| `stats (set/add/remove/multiply/divide) (amount) (kills/deaths/points/money) (clan/player) (clanName/playerName) -s` | Change statistics for a clan.                          | runithclans.admin.stats     |
+| `reload`                                                                                                             | Reload the plugin configuration files.                 | runithclans.admin.reload    |
+| <p><code>migrator (type) (confirm/clean)</code> </p><p></p>                                                          | Migrate from others clan plugins. Support: simpleclans | runithclans.admin.migrate   |
 
 ## Placeholders
 
