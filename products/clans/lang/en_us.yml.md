@@ -164,11 +164,15 @@ messages:
     INVITED: "&8» &fYou have been invited to clan &b%tag% &8(&7%clan%&8)&f by &b%sender%&f."
     ACCEPTED: "&8» &fYou have &aaccepted &fthe invitation to clan &b%tag% &8(&7%clan%&8)&f."
     SEND: "&8» &fYou have sent an invitation to &b%target%&f."
+    SENDER_QUIT: "&8» &cThe invitation has been cancelled because &b%sender% &cdisconnected."
+    EXPIRED: "&8» &cThe invitation to clan &b%tag% &8(&7%clan%&8) &chas expired."
+    EXPIRED_SENDER: "&8» &cYour invitation to &b%target% &chas expired."
     info-to-members:
       QUIT: "&8» &ePlayer &b%target% &ehas left; the invitation has expired."
       DENIED: "&8» &ePlayer &b%target% &chas rejected &ejoining the clan."
       INVITED: "&8» &fLeader &b%sender% &fhas invited &b%target%&f."
       ACCEPTED: "&8» &fPlayer &b%target% &fhas &aaccepted &fjoining the clan."
+      EXPIRED: "&8» &eThe invitation to &b%target% &ehas expired."
 
   kick:
     format:
