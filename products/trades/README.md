@@ -2,6 +2,7 @@
 description: >-
   Is a powerful and highly optimized trades plugin built for performance and
   scalability. With an GUI's trade system with nbt supported.
+hidden: true
 icon: gem
 ---
 

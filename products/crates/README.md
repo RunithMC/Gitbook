@@ -2,6 +2,7 @@
 description: >-
   Is a powerful and highly optimized crates plugin built for performance and
   scalability. With an efficient rewards give system.
+hidden: true
 icon: treasure-chest
 ---
 

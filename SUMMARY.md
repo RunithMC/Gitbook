@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Runith Studio's](README.md)
+* [Welcome to Runith Studio](README.md)
 
 ## Getting Started
 
