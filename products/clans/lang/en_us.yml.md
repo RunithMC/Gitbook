@@ -17,8 +17,26 @@ aliases:
 messages:
   action-dont-registered: "&8» &cThis action is not registered. Contact an administrator."
   in-process: "&8» &cWait for the task to finish: %action% for clan %clan%"
-  user-command-no-permission: "&8» &cYou do not have permission to use this command."
-
+  permission-errors:
+    USER_UPGRADE: "&8» &cYou do not have permission to upgrade your clan."
+    USER_TAG: "&8» &cYou do not have permission to change your clan's tag."
+    USER_SETROLE: "&8» &cYou do not have permission to change members' roles."
+    USER_RENAME: "&8» &cYou do not have permission to rename your clan."
+    USER_RALLY: "&8» &cYou do not have permission to call a rally."
+    USER_LIST: "&8» &cYou do not have permission to view the clan list."
+    USER_LEAVE: "&8» &cYou do not have permission to leave your clan."
+    USER_KICK: "&8» &cYou do not have permission to kick members from your clan."
+    USER_INVITE: "&8» &cYou do not have permission to manage clan invitations."
+    USER_INFO: "&8» &cYou do not have permission to view clan information."
+    USER_FRIENDLYFIRE: "&8» &cYou do not have permission to manage friendly fire settings."
+    USER_ENEMY: "&8» &cYou do not have permission to manage enemies."
+    USER_DISBAND: "&8» &cYou do not have permission to disband your clan."
+    USER_CREATE: "&8» &cYou do not have permission to create a clan."
+    USER_CHAT: "&8» &cYou do not have permission to use clan chat features."
+    USER_BASE: "&8» &cYou do not have permission to manage your clan's base."
+    USER_BANK: "&8» &cYou do not have permission to manage the clan bank."
+    USER_ALLY: "&8» &cYou do not have permission to manage alliances."
+    USER_USE: "&8» &cYou do not have permission to use clan commands."
   format:
     - "&3&lRunithClans"
     - " "

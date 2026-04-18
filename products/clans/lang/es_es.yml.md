@@ -17,7 +17,26 @@ aliases:
 messages:
   action-dont-registered: "&8» &cEsta acción no está registrada. Contacta a un administrador."
   in-process: "&8» &cEspera a que finalice la tarea: %action% para el clan %clan%"
-  user-command-no-permission: "&8» &cNo tienes permiso para usar este comando."
+  permission-errors:
+    USER_UPGRADE: "&8» &cNo tienes permiso para comprar mejoras para tu clan."
+    USER_TAG: "&8» &cNo tienes permiso para cambiar el tag de tu clan."
+    USER_SETROLE: "&8» &cNo tienes permiso para cambiar los roles de los miembros de tu clan."
+    USER_RENAME: "&8» &cNo tienes permiso para renombrar tu clan."
+    USER_RALLY: "&8» &cNo tienes permiso para convocar a tus miembros."
+    USER_LIST: "&8» &cNo tienes permiso para ver la lista de clanes conectados."
+    USER_LEAVE: "&8» &cNo tienes permiso para abandonar tu clan."
+    USER_KICK: "&8» &cNo tienes permiso para expulsar a miembros de tu clan."
+    USER_INVITE: "&8» &cNo tienes permiso para gestionar invitaciones a tu clan."
+    USER_INFO: "&8» &cNo tienes permiso para ver la información de los clanes."
+    USER_FRIENDLYFIRE: "&8» &cNo tienes permiso para activar o desactivar el PVP entre miembros de tu clan."
+    USER_ENEMY: "&8» &cNo tienes permiso para gestionar la lista de enemigos de tu clan."
+    USER_DISBAND: "&8» &cNo tienes permiso para eliminar tu clan."
+    USER_CREATE: "&8» &cNo tienes permiso para crear un clan."
+    USER_CHAT: "&8» &cNo tienes permiso para usar los chats de tu clan."
+    USER_BASE: "&8» &cNo tienes permiso para gestionar la base de tu clan."
+    USER_BANK: "&8» &cNo tienes permiso para gestionar el banco de tu clan."
+    USER_ALLY: "&8» &cNo tienes permiso para gestionar las alianzas de tu clan."
+    USER_USE: "&8» &cNo tienes permiso para usar comandos de clan."
 
   format:
     - "&3&lRunithClans"
