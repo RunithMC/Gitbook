@@ -62,7 +62,7 @@ This guide will walk you through the steps to **install, configure, and modify**
 
 {% stepper %}
 {% step %}
-**Download the jar from our** [**Discord**](https://discord.runith.net)**.**
+**Download the jar from our** [**Discord**](https://discord.gg/zaywVfxyx)**.**
 
 You will need purchase before.
 {% endstep %}
