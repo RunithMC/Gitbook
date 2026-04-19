@@ -8,7 +8,7 @@ icon: gears
 
 ```kotlin
 repositories {
-    maven("https://repo.runith.net/")
+    maven("https://raw.githubusercontent.com/RunithMC/maven/main/")
 }
 
 dependencies { 
@@ -21,7 +21,7 @@ dependencies {
 ```groovy
 repositories {
     maven {
-        url "https://repo.runith.net/"
+        url "https://raw.githubusercontent.com/RunithMC/maven/main/"
     }
 }
 
@@ -36,7 +36,7 @@ dependencies {
 <repositories>
     <repository>
         <id>runith-repo</id>
-        <url>https://repo.runith.net/</url>
+        <url>https://raw.githubusercontent.com/RunithMC/maven/main/</url>
     </repository>
 </repositories>
 
