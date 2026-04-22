@@ -4,8 +4,7 @@ icon: head-side-speak
 
 # en\_US.yml
 
-{% code overflow="wrap" %}
-```yml
+```yaml
 aliases:
   - "en_UD"
   - "en_PT"
@@ -17,6 +16,35 @@ aliases:
 messages:
   action-dont-registered: "&8» &cThis action is not registered. Contact an administrator."
   in-process: "&8» &cWait for the task to finish: %action% for clan %clan%"
+  roles:
+    ADMINISTRATOR: "&4&lADMIN"
+    LEADER: "&b&lLEADER"
+    CO_LEADER: "&3&lCO_LEADER"
+    MOD: "&9&lMOD"
+    USER: "&5&lUSER"
+
+  role-error-message:
+    ADD_ALLY: "&8» &cYou need to be at least &eCO_LEADER &cto create an alliance."
+    REMOVE_ALLY: "&8» &cYou need to be at least &eCO_LEADER &cto remove an alliance."
+    HANDLE_ALLY: "&8» &cYou need to be at least &eCO_LEADER &cto accept/deny/cancel an alliance."
+    ADD_ENEMY: "&8» &cYou need to be at least &eCO_LEADER &cto add an enemy clan."
+    REMOVE_ENEMY: "&8» &cYou need to be at least &eCO_LEADER &cto remove an enemy clan."
+    DEPOSIT_BANK: "&8» &cYou need to be at least &eUSER &cto deposit money into the clan bank."
+    WITHDRAW_BANK: "&8» &cYou need to be at least &eLEADER &cto withdraw money from the clan bank."
+    KICK_PLAYER: "&8» &cYou need to be at least &eMOD &cto kick players from the clan."
+    INVITE_PLAYER: "&8» &cYou need to be at least &eMOD &cto invite players to the clan."
+    DISBAND: "&8» &cYou need to be at least &eLEADER &cto disband the clan."
+    RENAME: "&8» &cYou need to be at least &eCO_LEADER &cto rename the clan."
+    SET_BASE: "&8» &cYou need to be at least &eCO_LEADER &cto set the clan base."
+    CLAN_CHAT: "&8» &cYou need to be at least &eUSER &cto use clan chat."
+    ALLY_CHAT: "&8» &cYou need to be at least &eUSER &cto use ally chat."
+    ENEMY_CHAT: "&8» &cYou need to be at least &eUSER &cto use enemy chat."
+    MODIFY_FRIENDLY_FIRE: "&8» &cYou need to be at least &eCO_LEADER &cto modify friendly fire."
+    CHANGE_TAG: "&8» &cYou need to be at least &eCO_LEADER &cto change the clan tag."
+    RALLY: "&8» &cYou need to be at least &eUSER &cto call a rally."
+    UPGRADE: "&8» &cYou need to be at least &eCO_LEADER &cto upgrade the clan."
+    SET_ROLE: "&8» &cYou need to be at least &eCO_LEADER &cto change role to another player."
+
   permission-errors:
     USER_UPGRADE: "&8» &cYou do not have permission to upgrade your clan."
     USER_TAG: "&8» &cYou do not have permission to change your clan's tag."
@@ -37,8 +65,9 @@ messages:
     USER_BANK: "&8» &cYou do not have permission to manage the clan bank."
     USER_ALLY: "&8» &cYou do not have permission to manage alliances."
     USER_USE: "&8» &cYou do not have permission to use clan commands."
+
   format:
-    - "&3&lRunithClans"
+    - "&3&lRunithClans" # You can use hex colors, example: #AFCF21
     - " "
     - "&fAvailable Commands &7→"
     - " &8● &bcreate &9(name) (tag) &8- &fCreate a clan"
@@ -77,7 +106,6 @@ messages:
       - "&e⚠ &6This action is permanent and will delete all clan statistics."
       - "&7If you only wish to transfer leadership, use &b/clan setrole (player) leader&7."
     no-in-clan: "&8» &cYou do not belong to any clan."
-    no-leader: "&8» &cOnly the leader can delete the clan."
     info-to-members: "&8» &6Your clan has been disbanded by leader &b%leader%&6."
 
   leave:
@@ -91,7 +119,6 @@ messages:
     format:
       - "&8» &cUsage: &f/clan tag &b(new_tag)"
       - "&7Example: /clan tag &bLosDuros"
-    no-leader: "&8» &cOnly the leader can change the clan tag."
     info-to-members: "&8» &6Player &b%player% &6has changed the clan tag to &b%name%&6."
     invalid:
       - " "
@@ -139,7 +166,6 @@ messages:
     on-info-to-members: "&8» &fPlayer &b%player% &fhas &aenabled &fPVP between clan members."
     off-info-to-members: "&8» &fPlayer &b%player% &fhas &cdisabled &fPVP between clan members."
     no-in-clan: "&8» &cYou do not belong to any clan."
-    need-higher-role: "&8» &cYou must be at least &eCO-LEADER &cto change this setting."
 
   chat:
     format:
@@ -170,7 +196,6 @@ messages:
     format: "&8» &cUsage: &f/clan invite &b(accept/deny/player)"
     target-dont-exist: "&8» &cThe player &b%target% &cis not online."
     yourself: "&8» &cYou cannot invite yourself."
-    NO_LEADER: "&8» &cOnly the leader can send invitations."
     NO_IN_CLAN: "&8» &cYou do not belong to any clan."
     ALREADY_IN_CLAN: "&8» &cThe player &b%target% &cis already in your clan."
     ALREADY_IN_OTHER_CLAN: "&8» &cThe player &b%target% &calready belongs to clan &b%tag% &8(&7%clan%&8)&c."
@@ -200,7 +225,6 @@ messages:
     target-dont-exist: "&8» &cThe player &b%target% &cis not in your clan."
     yourself: "&8» &cYou cannot kick yourself. Use &b/clan leave&c."
     high-rank: "&8» &cYou cannot kick someone with a rank equal to or higher than yours."
-    min-rank: "&8» &cYou must be at least &eMOD &cto kick players."
     info-to-members: "&8» &fPlayer &b%player% &fhas kicked &b%target% &ffor: &e%reason%"
     info-to-kicked: "&8» &cYou have been kicked from the clan by &b%player% &c(reason: &e%reason%&c)."
 
@@ -212,7 +236,6 @@ messages:
     yourself: "&8» &cYou cannot change your own role."
     high-rank: "&8» &cYou cannot modify the role of a player with an equal or higher rank."
     need-high-rank: "&8» &cYou do not have the required rank to perform this action."
-    min-rank: "&8» &cOnly &eCO-LEADERS &ccan change roles."
     info-to-members: "&8» &fPlayer &b%player% &fhas changed the role of &b%target% &fto &b%target_role%&f."
     change-leader: "&8» &fLeadership was transferred from &b%player% &fto &b%target%&f."
     unexist-role: "&8» &cThe role &b%role% &cdoes not exist. Use: &fuser, mod, coleader, leader."
@@ -253,7 +276,6 @@ messages:
       - "&8» &cUsage: &f/clan enemy &b(add/remove) (name)"
       - "&7Example: /clan enemy add &bClanDePepe"
     no-in-clan: "&8» &cYou do not belong to any clan."
-    need-high-rank: "&8» &cYou must be at least &eCO-LEADER &cto modify enemies."
     max-enemies: "&8» &cYour clan has reached the limit of &e%max% &cenemies."
     no-online: "&8» &cYou can only declare an enemy to a connected clan."
     add: "&8» &fPlayer &b%player% &fhas declared the clan &b%enemy_tag% &8(&7%enemy_name%&8)&f as an enemy."
@@ -269,7 +291,6 @@ messages:
     cancel-format: "&8» &cUsage: &f/clan ally cancel &b(clan)"
     remove-format: "&8» &cUsage: &f/clan ally remove &b(clan)"
     no-in-clan: "&8» &cYou do not belong to any clan."
-    min-rank: "&8» &cYou need to be at least Co-Leader to manage alliances."
     clan-not-found: "&8» &cThe clan &b%clan% &cwas not found."
     cannot-ally-yourself: "&8» &cYou cannot form an alliance with your own clan."
     already-allied: "&8» &cYou are already allied with &b%clan%&c."
@@ -313,7 +334,6 @@ messages:
   base:
     no-in-clan: "&8» &cYou do not belong to any clan."
     info-to-members: "&3[BASE] &fPlayer &a%player% &fhas changed the base to &e%x%, %y%, %z%."
-    need-higher-role: "&8» &cYou must be at least &eLEADER &cto change the base."
     in-blacklisted-world: "&8» &cYou are in a blacklisted world, you cannot go to/change the base."
     no-exists: "&8» &cYour clan does not have a base set."
     teleport: "&8» &aYou have been sent to the clan base."
@@ -323,7 +343,6 @@ messages:
     no-in-clan: "&8» &cYou do not belong to any clan."
     already-exists: "&8» &cA clan with this name already exists"
     info-to-members: "&3[RENAME] &fPlayer &a%player% &fhas changed the clan name to %clan% with the tag %tag%&f."
-    need-higher-role: "&8» &cYou must be at least &eCO_LEADER &cto change the name."
     format: "&8» &cTo rename your clan, use: /clan rename (name) (tag)."
 
     already_exist: "&8» &cThe clan &b%clan% &calready exists."
@@ -332,6 +351,4 @@ messages:
     renamed: "&8» &fYou have renamed the clan to &b%clan% &fwith the tag &b%tag%&f."
     invalid_name: "&8» &cThe name entered is not valid. Only letters, numbers, and some symbols are allowed."
     cooldown: "&8» &cYou need to wait &e%time% &cbefore renaming the clan back"
-
 ```
-{% endcode %}

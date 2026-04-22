@@ -18,6 +18,7 @@
   * [config.yml](products/clans/config.yml.md)
   * [chat.yml](products/clans/config.yml-1.md)
   * [lunarclient.yml](products/clans/config.yml-2.md)
+  * [groups.yml](products/clans/config.yml-3.md)
   * [discordhook.yml](products/clans/discordhook.yml.md)
   * [upgrades.yml](products/clans/upgrades.yml.md)
   * [Lang](products/clans/lang/README.md)
