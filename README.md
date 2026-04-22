@@ -15,7 +15,7 @@ Have a question or ran into an issue? No worries — we’ve got you covered. Jo
 
 To get help, head over to **#tickets** and open a ticket so we can assist you as quickly as possible.
 
-Join our Discord here: [**discord.runith.net**](https://discord.runith.net)
+Join our Discord here: [**https://discord.com/invite/zaywVfxyx**](https://discord.com/invite/zaywVfxyx)
 {% endhint %}
 
 ### Explore our products!
